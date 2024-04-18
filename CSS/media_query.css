@@ -1,0 +1,105 @@
+@media (max-width: 576px) {
+    .hitesh{
+        display: none;
+    }
+    .offcanvas{
+        width: 85% !important;
+    }
+    .category ul{
+        padding: 10px 35px!important;
+        width: 100% !important;
+    }
+    .counter ul{
+        padding: 10px 5px !important;
+    }
+    .flash-title{
+        margin-top: -20px !important;
+        padding: 0px 20px !important;
+    }
+    .counter ul li a{
+        padding: 15px !important;
+        font-size: 18px !important;
+    }
+    .flash-img a img{
+        margin-top: -10px !important;
+        margin-bottom: 30px !important;
+        width: 100% !important;
+    }
+    .sales{
+        margin:10px 0px !important;
+    }
+    .top-selling{
+        margin: 10px 0px !important;
+        width: 100% !important;
+    }
+    .top-one{
+        margin-top: -10px !important;
+    }
+    .footer-soc-med{
+        text-align: start !important;
+    }
+    .footer-soc-med a i{
+        padding: 1px !important;
+    }
+    .footer_line{
+        width: 100% !important;
+       
+    }
+ }
+
+
+@media (max-width: 768px) { 
+    .toggle-button{
+        display: block !important;
+        
+    }
+    
+    .navbar{
+        display: none !important;
+    }
+   
+    .search_head,.user{
+        display: none !important;
+        text-align: justify !important;
+    }
+    .navbar{
+        display: none !important;
+    }
+    .category ul a{
+        padding: 20px 25px!important;
+        
+    }
+    .counter ul{
+        padding: 10px 5px !important;
+    }
+    .flash-title{
+        margin-top: -20px !important;
+        padding: 0px 20px !important;
+    }
+    .counter ul li a{
+        padding: 15px !important;
+        font-size: 18px !important;
+    }
+    .flash-img a img{
+        margin-top: -10px !important;
+        margin-bottom: 30px !important;
+        width: 100% !important;
+    }
+    .sales{
+        margin:10px 0px !important;
+    }
+    .top-selling{
+        margin: 10px 0px !important;
+        width: 100% !important;
+    }
+    .top-one{
+        margin-top: -10px !important;
+    }
+    .footer-soc-med{
+        text-align: start !important;
+    }
+    
+ }
+
+
+@media (max-width: 992px) { }

@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media_query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- head section start -->
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 py-2 ">
+                    <div class="left-header justify-content-start">
+                        <ul class="list-unstyled">
+                            <li class="pe-3"><a href="" class="text-black text-decoration-none">Account</a></li>
+                            <li class="px-3"><a href="" class="text-black text-decoration-none">Track Order</a></li>
+                            <li class="px-3"><a href="" class="text-black text-decoration-none">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 py-2 hitesh">
+                    <div class="right-header d-flex justify-content-end">
+                        <div class="dropdown">
+                            <img src="./images/country-logo-16x16.png" alt="">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                United state
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item px-3 " href="#">united state</a></li>
+                                <li><a class="dropdown-item px-3 " href="#">india</a></li>
+                                <li><a class="dropdown-item px-3 " href="#">bangladesh</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown px-3">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                USD
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item px-3" href="#">USD</a></li>
+                                <li><a class="dropdown-item px-3" href="#">BDT</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown ">
+                            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Bangla
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item px-3 " href="#">Bangla</a></li>
+                                <li><a class="dropdown-item px-3 " href="#">English</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- head section end -->
+    <!-- header bottom start -->
+    <section class="bottom_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 d-flex py-3 search_head">
+                    <div>
+                        <img src="./images/logo-2.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-3 py-3 search_head">
+                    <div>
+                        <div class="input-group search">
+                            <input type="text" aria-label="First name" class="form-control p-2"
+                                placeholder="Search Product...">
+                            <a href="" class="text-decoration-none"><input type="text" aria-label="Last name"
+                                    class="form-control p-2 " placeholder="All Categories"> </a>
+                            <span class="input-group-text px-4 text-white">Search</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3 text-end py-3 search_head">
+                    <div class="btm-head-user">
+                        <button type="button" class="position-relative border border-none bg-white mx-3 user">
+                            <i class="fa-solid fa-code-compare"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill btn-badges ">
+                                2
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+                        <button type="button" class=" position-relative border border-none bg-white mx-3 user">
+                            <i class="fa-regular fa-heart"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill btn-badges">
+                                1
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+                        <button type="button" class=" position-relative border border-none bg-white mx-3 ">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill btn-badges">
+                                15
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+
+                        <button type="button" class=" position-relative border border-none bg-white mx-3 user">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- header bottom start -->
+
+    <!-- hidden header start-->
+     <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 py-3 d-flex justify-content-between">
+                    <div class="toggle-button ">
+                        <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                            aria-controls="offcanvasExample">
+                            <i class="fa-solid fa-bars fs-4"></i>
+                        </a>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                                    <button type="button" class="position-relative border border-none bg-white mx-1">
+                                        <i class="fa-solid fa-code-compare"></i>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill btn-badges">
+                                            2
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </button>
+                                    <button type="button" class="position-relative border border-none bg-white mx-3">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill btn-badges ">
+                                            2
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </button>
+
+                                </h5>
+                                <button type="button" class="btn-close text-dark bg-danger rounded-circle"
+                                    data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" placeholder="Seacrh Products"
+                                            aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                                        <span class="input-group-text" id="inputGroup-sizing-sm"><i
+                                                class="fa-solid fa-magnifying-glass"></i></span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h6>Categories <small class="px-3">|</small><span class="text-muted">Main
+                                            Menu</span></h6>
+                                </div>
+                                <div class="hide-menu ">
+                                    <ul>
+                                        <li><a class="dropdown-item px-2 pt-2 " href="#"><i
+                                                    class="fa-solid fa-mobile-screen px-3 me-3"></i> Action<i
+                                                        class="fa-solid fa-caret-right right"></i></a></li>
+                                        <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                                    class="fa-solid fa-gamepad px-3 me-3"></i>Another action <i
+                                                    class="fa-solid fa-caret-right right-two"></i></a></li>
+                                        <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                                    class="fa-solid fa-camera-retro px-3 me-3"></i>Image & Video
+                                                <i class="fa-solid fa-caret-right right-three"></i></a></li>
+                                        <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                                    class="fa-solid fa-car px-3 me-3"></i>Vehicles <i
+                                                    class="fa-solid fa-caret-right right-four"></i></a></li>
+                                        <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                                    class="fa-solid fa-couch px-3 me-3"></i>Furnitures <i
+                                                    class="fa-solid fa-caret-right right-five"></i></a></li>
+                                        <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                                    class="fa-solid fa-baseball-bat-ball px-3 me-3"></i>Sport <i
+                                                    class="fa-solid fa-caret-right right-six"></i></a></li>
+                                        <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                                    class="fa-solid fa-mug-saucer px-3 me-3"></i> Food & Drinks <i
+                                                    class="fa-solid fa-caret-right right-seven"></i></a></li>
+                                        <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                                    class="fa-solid fa-shirt px-3 me-3"></i>Fashion & Accessories <i
+                                                    class="fa-solid fa-caret-right right-eight"></i></a></li>
+                                        <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                                    class="fa-solid fa-pump-soap px-3 me-3"></i>Toilet & Sanitation <i
+                                                    class="fa-solid fa-caret-right right-nine"></i></a></li>
+                                        <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                                    class="fa-brands fa-stack-overflow px-3 me-3"></i>Makeup Corner <i
+                                                    class="fa-solid fa-caret-right right-ten"></i></a></li>
+                                        <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                                    class="fa-solid fa-baby px-3 me-3"></i>Baby Items <i
+                                                    class="fa-solid fa-caret-right right-eleven"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="toggle-button">
+                        <img src="./images/logo-2.svg" alt="">
+                    </div>
+                    <div class="toggle-button mt-2">
+                        <button type="button" class=" position-relative border border-none bg-white mx-3 ">
+                            <i class="fa-solid fa-bag-shopping fs-4"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill btn-badges">
+                                15
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- hidden header end -->
+
+    <!-- navbar start -->
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+
+                <nav class="navbar navbar-expand-lg navbar-light py-2 px-5">
+                    <div class="container-fluid">
+                        <div class="dropdown">
+                            <button class="btn btn-light py-2 px-3 dropdown-toggle" type="button"
+                                id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-bars pe-3"></i> All Categories
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item px-2 pt-2" href="#"><i
+                                            class="fa-solid fa-mobile-screen px-3"></i> Action <small><i
+                                                class="fa-solid fa-caret-right"></i></small></a></li>
+                                <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                            class="fa-solid fa-gamepad px-3"></i>Another action <i
+                                            class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                            class="fa-solid fa-camera-retro px-3"></i> px-3"></i>Image & Video <i
+                                            class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                            class="fa-solid fa-car px-3"></i>Vehicles <i
+                                            class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                            class="fa-solid fa-couch px-3"></i>Furnitures <i
+                                            class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                            class="fa-solid fa-baseball-bat-ball px-3"></i>Sport <i
+                                            class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                            class="fa-solid fa-mug-saucer px-3"></i> Food & Drinks <i
+                                            class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                            class="fa-solid fa-shirt px-3"></i>Fashion & Accessories <i
+                                            class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                            class="fa-solid fa-pump-soap px-3"></i>Toilet & Sanitation <i
+                                            class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                            class="fa-brands fa-stack-overflow px-3"></i>Makeup Corner <i
+                                            class="fa-solid fa-caret-right"></i></a></li>
+                                <li><a class="dropdown-item px-2 py-1" href="#"><i
+                                            class="fa-solid fa-baby px-3"></i>Baby Items <i
+                                            class="fa-solid fa-caret-right"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav m-auto mb-2 pb-2 mb-lg-0">
+                                <li class="nav-item dropdown px-3">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Home Page
+                                    </a>
+                                    <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item px-3 pt-2" href="#">Home One</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Home Two</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Home Three</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Home Four</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Home Five</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown px-3">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Shop
+                                    </a>
+                                    <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item px-3 pt-2" href="#">Home One</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Home Two</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Home Three</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Home Four</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Home Five</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown px-3">
+                                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item px-3 pt-2" href="#">Privacy Policy</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Terms and Conditions</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">FAQ</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Shop Category Icon</a></li>
+                                        <li><a class="dropdown-item px-3 py-1" href="#">Shop List View</a></li>
+
+                                    </ul>
+                                </li>
+                                <li class="nav-item px-3">
+                                    <a class="nav-link text-white" href="#">About</a>
+                                </li>
+                                <li class="nav-item px-3">
+                                    <a class="nav-link text-white" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item px-3">
+                                    <a class="nav-link text-white" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <button class="btn submit px-3 py-2 fw-bold" type="submit">Become a Seller</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </section> 
+    <!-- navbar end -->
+
+    <!-- main banner start -->
+    <section class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 py-4 d-flex">
+                    <div class="banner-img" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                        <img src="./images/banner-2.1.png" class="img-fluid h-100 " alt="">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6  py-4 d-flex">
+                    <div class="banner-img" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+                        <img src="./images/banner-2.2.png" class="img-fluid h-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- main banner end -->
+
+    <!-- my market category start -->
+    <section class="market_cat">
+        <div class="container">
+            <div class="row ">
+                <div class="col-sm-12 col-md-12 col-lg-12 py-4">
+                    <div class="d-flex justify-content-between">
+                        <h2>My Market Category</h2>
+                        <h6>View More <i class="fa-solid fa-arrow-right pt-3"></i> </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 col-md-12 col-lg-12">
+                    <div class="category text-center text-black">
+                        <ul class="d-flex flex-wrap justify-content-between">
+                            <a href="" class="text-decoration-none  ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                        </ul>
+                        <ul class="d-flex flex-wrap justify-content-between">
+                            <a href="" class="text-decoration-none  ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                            <a href="" class="text-decoration-none ">
+                                <li class=""><i class="fa-solid fa-couch"></i> <br> </li>
+                                <h5 class="pt-3 text-black">sofa</h5>
+                            </a>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- my market category end -->
+
+    <!-- featured product start -->
+    <section class="feature_product">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 justify-content-center">
+                    <div class="d-flex justify-content-between py-4">
+                        <h2>Featured Products</h2>
+                        <h6>View More <i class="fa-solid fa-arrow-right pt-3"></i> </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex justify-content-center">
+                    <div class="product text-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                        <img src="./images/product-img-2.10.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex justify-content-center">
+                    <div class="product text-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                        <img src="./images/product-img-2.9.jpg " class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Geofarm nulla tempor</h5>
+                        <p class="text-danger fw-bold py-3">BDT20.72 <del class="text-dark">BDT22.97</del
+                                class="text-dark"></p>
+                       
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex justify-content-center">
+                    <div class="product text-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                        <img src="./images/product-img-2.8.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Zoxy quis amet</h5>
+                        <p class="text-danger fw-bold py-3">BDT25.53 <del class="text-dark">BDT31.24</del
+                                class="text-dark"></p>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex justify-content-center">
+                    <div class="product text-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                        <img src="./images/product-img-2.10.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex justify-content-center">
+                    <div class="product text-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                        <img src="./images/product-img-2.9.jpg " class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Geofarm nulla tempor</h5>
+                        <p class="text-danger fw-bold py-3">BDT20.72 <del class="text-dark">BDT22.97</del
+                                class="text-dark"></p>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex justify-content-center">
+                    <div class="product text-center" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+                        <img src="./images/product-img-2.8.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Zoxy quis amet</h5>
+                        <p class="text-danger fw-bold py-3">BDT25.53 <del class="text-dark">BDT31.24</del
+                                class="text-dark"></p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature product end -->
+
+    <!-- flash sale start -->
+    <!-- <section class="flash py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 flash-sale " data-aos="fade-right" data-aos-delay="50"
+                    data-aos-duration="1000">
+                    <div class="counter ">
+                        <ul class=" p-5 px-4 fw-bold d-flex justify-content-center text-center">
+                            <li class="px-3 py-4 count-1"><a href="" class="text-decoration-none"> 0 </a>
+                                <h5 class="pt-5">Days</h5>
+                            </li>
+                            <li class="px-3 py-4 count-2"><a href="" class="text-decoration-none"> 0 </a>
+                                <h5 class="pt-5">Days</h5>
+                            </li>
+                            <li class="px-3 py-4 count-3"><a href="" class="text-decoration-none"> 0 </a>
+                                <h5 class="pt-5">Days</h5>
+                            </li>
+                            <li class="px-3 py-4 count-4"><a href="" class="text-decoration-none"> 0 </a>
+                                <h5 class="pt-5">Days</h5>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-7 col-lg-7 px-5 flash-title">
+                        <div>
+                            <h1>WOO! Flash Sale</h1>
+                            <p class="pt-3 fs-5">You get into the 2k+ best Products in Flash offer with <br>
+                                a special-shaped sofa for sale.</p>
+                            <button class="mt-4 px-3 py-2">Shop Now <small><i
+                                        class="fa-solid fa-greater-than ps-1"></small></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 flash-img" data-aos="fade-right" data-aos-delay="50"
+                    data-aos-duration="1000">
+                    <div>
+                        <a href=""><img src="./images/ads-2.2.png" class="img-fluid h-100 w-100" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 flash-img" data-aos="fade-left" data-aos-delay="50"
+                    data-aos-duration="1000">
+                    <div>
+                        <a href=""><img src="./images/ads-2.1.png" class="img-fluid h-100 w-100" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- flash sale end -->
+
+    <!-- popular sales start -->
+    <section class="popular-sales py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 py-4">
+                    <div class="d-flex justify-content-between">
+                        <h2>Popular Sales</h2>
+                        <h6>View More <i class="fa-solid fa-arrow-right pt-3 "></i> </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="sales text-center">
+                        <img src="./images/product-img-2.4.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Senmei ipsum dolore</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="sales text-center">
+                        <img src="./images/product-img-2.5.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Canopoly duis voluptate</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="sales text-center">
+                        <img src="./images/product-img-2.6.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Unisure aliqua repreh</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- popular sales end -->
+
+    <!-- Top Selling Products start -->
+    <section class="top-sales">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 py-4">
+                    <div class="d-flex justify-content-between">
+                        <h2>Top Selling Products</h2>
+                        <h6>View More <i class="fa-solid fa-arrow-right pt-3"></i> </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6  " data-aos="fade-left" data-aos-delay="50"
+                    data-aos-duration="1000">
+                    <div class="top-selling d-flex flex-wrap justify-content-around">
+                        <img src="./images/product-img-2.4.jpg" class="img-fluid py-4" alt="">
+                        <div class="col-5 top-sell-btn py-4">
+                            <h5 class="pt-3">Senmei ipsum dolore</h5>
+                            <p class="text-danger fw-bold  fs-4">BDT18.74 <del class="text-dark fs-5">BDT34.99</del
+                                    class="text-dark"></p>
+                            <button class="text-white fw-bold mb-3 px-3 py-2"><small>Add To
+                                    Cart</small></button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6  " data-aos="fade-left" data-aos-delay="50"
+                    data-aos-duration="1000">
+                    <div class="top-selling d-flex flex-wrap justify-content-around">
+                        <img src="./images/product-img-2.5.jpg" class="img-fluid py-4" alt="">
+                        <div class="col-5 top-sell-btn py-4">
+                            <h5 class="pt-3">Senmei ipsum dolore</h5>
+                            <p class="text-danger fw-bold  fs-4">BDT18.74 <del class="text-dark fs-5">BDT34.99</del
+                                    class="text-dark"></p>
+                            <button class="text-white fw-bold mb-3 px-3 py-2"><small>Add To
+                                    Cart</small></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6  py-3 top-one" data-aos="fade-left" data-aos-delay="50"
+                    data-aos-duration="1000">
+                    <div class="top-selling d-flex flex-wrap justify-content-around">
+                        <img src="./images/product-img-2.6.jpg" class="img-fluid py-4" alt="">
+                        <div class="col-5 top-sell-btn py-4">
+                            <h5 class="pt-3">Senmei ipsum dolore</h5>
+                            <p class="text-danger fw-bold  fs-4">BDT18.74 <del class="text-dark fs-5">BDT34.99</del
+                                    class="text-dark"></p>
+                            <button class="text-white fw-bold mb-3 px-3 py-2"><small>Add To
+                                    Cart</small></button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6  py-3 top-one" data-aos="fade-left" data-aos-delay="50"
+                    data-aos-duration="1000">
+                    <div class="top-selling d-flex flex-wrap justify-content-around">
+                        <img src="./images/product-img-2.7.jpg" class="img-fluid py-4" alt="">
+                        <div class="col-5 top-sell-btn py-4">
+                            <h5 class="pt-3">Senmei ipsum dolore</h5>
+                            <p class="text-danger fw-bold  fs-4">BDT18.74 <del class="text-dark fs-5">BDT34.99</del
+                                    class="text-dark"></p>
+                            <button class="text-white fw-bold mb-3 px-3 py-2"><small>Add To
+                                    Cart</small></button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 py-5" data-aos="fade-right" data-aos-delay="50"
+                    data-aos-duration="1000">
+                    <div>
+                        <a href="">
+                            <img src="./images/ads-2.3.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Top Selling Products end -->
+
+    <!-- new arrivals start -->
+    <section class="new-arrivals">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="d-flex justify-content-between py-4">
+                        <h2>Featured Products</h2>
+                        <h6>View More <i class="fa-solid fa-arrow-right pt-3"></i> </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="product text-center">
+                        <img src="./images/product-img-2.10.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="product text-center">
+                        <img src="./images/product-img-2.9.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="product text-center">
+                        <img src="./images/product-img-2.8.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="product text-center">
+                        <img src="./images/product-img-2.7.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="product text-center">
+                        <img src="./images/product-img-2.6.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="product text-center">
+                        <img src="./images/product-img-2.5.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="product text-center">
+                        <img src="./images/product-img-2.4.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="product text-center">
+                        <img src="./images/product-img-2.3.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-3 d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <div class="product text-center">
+                        <img src="./images/product-img-2.1.jpg" class="img-fluid p-3" alt="">
+                        <h5 class="pt-3">Callflex dolore eiusmod</h5>
+                        <p class="text-danger fw-bold py-3 ">BDT18.74 <del class="text-dark">BDT34.99</del
+                                class="text-dark"></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 py-5" data-aos="fade-right" data-aos-delay="50"
+                    data-aos-duration="1000">
+                    <div>
+                        <a href="">
+                            <img src="./images/ads-2.4.png" class="img-fluid" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- new arrivals end -->
+
+    <!-- popular sales more start -->
+    <section class="popular-sales py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="d-flex justify-content-between py-4">
+                        <h2>Popular Sales</h2>
+                        <h6>View More <i class="fa-solid fa-arrow-right pt-3"></i> </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.10.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold  fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.6.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.1.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.9.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold  fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.5.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold  fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.11.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold  fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.8.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.4.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold  fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.10.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.7.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold  fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.8.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold  fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="popular-sales_more d-flex flex-wrap text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <img src="./images/product-img-2.9.jpg" class="img-fluid py-3 px-4" alt="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12 pop-sale-det py-4">
+                                <h6>Senmei ipsum dolore</h6>
+                                <p class="text-danger fw-bold  fs-6">BDT18.74 <del class="text-dark fs-6">BDT34.99</del
+                                        class="text-dark"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- popular sales more end -->
+
+    <!-- discount coupon start -->
+    <section class="discount">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 discount d-flex justify-content-center">
+                    <div class="disc-coupon text-center" data-aos="fade-up" data-aos-delay="50"
+                        data-aos-duration="1000">
+                        <h2>Get <span>20%</span> Off Discount Coupon</h2>
+                        <p class="fs-5">by Subscribe our Newsletter</p>
+                        <div class="col-sm-12 col-md-12 col-lg-12 mt-4" data-aos="fade-right" data-aos-delay="50"
+                            data-aos-duration="1000">
+                            <div class="disc-coupon-mail">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control py-2 px-3" placeholder="EMAIL ADDRESS"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <a href="" class="text-decoration-none mail"><span
+                                            class="input-group-text py-2 px-3 text-black" id="basic-addon2">Get the
+                                            Coupon</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- discount coupon end -->
+
+    <!-- footer start -->
+    <section class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4 ">
+                    <div>
+                        <img src="./images/logo-2.svg" alt="">
+                        <ul>
+                            <li class="pt-5"><a href="" class="text-muted text-decoration-none">Track Order</a></li>
+                            <li class="pt-3"><a href="" class="text-muted text-decoration-none">Delivery & Returns</a></li>
+                            <li class="pt-3"><a href="" class="text-muted text-decoration-none">Warranty</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-8">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-4 text-start">
+                                <p class="fs-5 ps-4">About us</p>
+                                <ul>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none ">Rave’s Story</a></li>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Work With Us</a></li>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Coporate News</a></li>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Investors</a></li>
+                                </ul>
+
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-4 text-start">
+                                <p class="fs-5 ps-4">Online Shop</p>
+                                <ul>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Furniture</a></li>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Decoration</a></li>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Kitchen</a></li>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Interior</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-4 text-start">
+                                <p class="fs-5 ps-4">Useful Links</p>
+                                <ul>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Secure Payment</a></li>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Privacy Policy</a></li>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Terms of Use</a></li>
+                                    <li class="pt-3"><a href="" class="text-muted text-decoration-none">Archived Products</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                <hr class="mt-3 footer_line">
+                <div class="col-sm-12 col-md-12 col-lg-6 footer_bottom py-3">
+                    <div class="footer-soc-med">
+                        <a href="" class="text-decoration-none text-muted"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="" class="text-decoration-none text-muted"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="" class="text-decoration-none text-muted"><i class="fa-brands fa-youtube"></i> </a>
+                        <small class="fs-6"><i class="fa-regular fa-copyright fs-6 ms-2"></i> 2022 <span
+                                class="text-black">
+                                Quomodosoft </span>All rights reserved</small>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 footer_bottom py-3">
+                    <div class="footer-soc-med text-end">
+                        <img src="./images/payment-getways.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- footer end -->
+
+    <!-- bootstrap link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+
+    <!-- aos link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

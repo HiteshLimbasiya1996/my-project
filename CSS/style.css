@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header start */
+    .header{
+      border-bottom: 1px solid grey;
+       
+    }
+    ul{
+        list-style-type: none !important;
+    }
+    .left-header ul li,.right-header ul li{
+        display: inline !important;
+        align-items: center;
+        font-size: 13px !important;
+   }
+   .right-header a{
+    font-size: 13px !important;
+   }
+/* header end */
+
+/* bottom_header start */
+.search span{    
+    background-color: rgb(45 111 109) !important;
+} 
+
+.btn-badges{
+    background-color: rgb(45 111 109) !important;
+    padding: 3px !important;
+    margin-left: 5px !important;
+}
+.search{
+    margin-left: 50px !important;
+}
+
+
+/* bottom_header end */
+
+/*  hidden header start */
+.toggle-button{
+    display: none !important;
+   
+}
+.hide-menu ul li {
+    margin: 20px -47px !important;
+}
+.right{ 
+  margin-left:10rem !important;
+}
+.right-two{
+    margin-left:5.8rem !important;
+}
+.right-three{
+    margin-left:5.9rem !important;
+}
+.right-four{
+    margin-left:9rem !important;
+}
+.right-five{
+    margin-left:7.9rem !important;
+}
+.right-six{
+    margin-left:10.2rem !important;
+}
+.right-seven{
+    margin-left:5.7rem !important;
+}
+.right-eight{
+    margin-left:2.6rem !important;
+}
+.right-nine{
+    margin-left:4.6rem !important;
+}
+.right-ten{
+    margin-left:5.9rem !important;
+}
+.right-eleven{
+    margin-left:7.9rem !important;
+}
+/*  hidden header end */
+
+/* navbar start */
+.navbar{
+    background-color: rgb(45 111 109);
+}
+.submit{
+    background-color: rgb(255 187 56) !important;
+}
+/* navbar end */
+
+/* main banner start */
+.banner,.market_cat,.feature_product,.flash,.popular-sales,.top-sales,.new-arrivals{
+    background-color: #f8f8f8;
+}
+.banner-img img{
+    width: auto !important;
+}
+
+/* main banner end */
+
+/* my market category start */
+.category li{
+background-color: rgb(238 241 241) !important;
+border-radius: 50% !important;
+padding: 30px !important;
+color: black !important;
+
+}
+.category li:hover{
+    background-color: rgb(45 111 109) !important;
+}
+.category a i{
+    font-size: 40px;    
+}
+/* my market category end */
+
+/* featured product start */
+.product{
+background-color: white;
+position: relative;
+}
+.add-to-cart i{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+.add-to-cart button{
+    background-color:  rgb(45 111 109) !important;
+    border: none;
+    padding: 15px 50px !important;  
+    display: none;  
+}
+.add-to-cart button:hover{
+    display: block;
+}
+/* featured product end */
+
+/* flash sale start */
+.flash-sale{
+    background: url('../images/campaign-cover-countdown-2.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height:500px;
+    width: 100% !important;
+    position: relative;
+}
+.counter{
+    position: absolute;
+    top: 20;
+}
+.counter li a{
+    background-color:white;
+    padding: 35px 40px !important;
+    border-radius: 50% !important;
+    font-size: 30px;
+}
+.count-1 a{
+    color: rgb(235 87 87);
+}
+.count-2 a{
+    color: rgb(47 128 237);
+}
+.count-3 a{
+    color: rgb(33 150 83);
+}
+.count-4 a{
+    color: rgb(239 93 168);
+}
+.flash-title{
+    position: absolute !important;
+    top:220px !important;
+}
+.flash-img a img{
+    width: 100% !important;
+}
+.flash-title button{
+    background-color:  rgb(255 187 56);
+    border: none;
+}
+/* flash sale end */
+
+/* popular sales start */
+.sales{
+    background-color: white;
+    position: relative;
+    }
+/* popular sales end */
+
+/* Top Selling Products start */
+.top-selling{
+    background-color: white;
+    position: relative;
+    width: 100% !important;
+}
+.top-selling img{
+    height: 220px !important;
+}
+.top-sell-btn button{
+    background-color:  rgb(45 111 109) !important;
+    border: none;
+}
+/* Top Selling Products end */
+
+/* new arrivals start */
+.arrivals{
+    background-color: white;
+    position: relative;
+    }
+/* new arrivals end */
+
+/* popular-sales_more start */
+.popular-sales_more{
+    background-color: white;
+    position: relative;
+    margin-bottom: 1px;
+}
+.popular-sales_more img{
+    height: 110px !important;
+}
+/* popular-sales_more end */
+
+/* discount coupon start */
+.discount{
+    background: url('../images/discount-banner-2.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height:320px;
+    width: 100%;
+    position: relative;
+}
+.disc-coupon{
+    position: absolute;
+    top: 80px;
+}
+.disc-coupon span{
+    color: rgb(255 187 56);
+}
+.mail span{
+    background-color:  rgb(255 187 56) !important;
+    border: none;
+}
+/* discount coupon end */
+
+/* footer start */
+.footer-soc-med a i{
+   
+    padding-left: 14px !important;
+}
+
+/* footer end */
+
+
