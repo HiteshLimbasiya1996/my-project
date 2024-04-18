@@ -1,3 +1,4 @@
+//This function is used to change the background color header wrap
 function changeBg(){
     var ast-main-header-wrap=document.getElementById('ast-main-header-wrap');
     var scrollvalue=window.scrollY;
